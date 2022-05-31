@@ -10,3 +10,6 @@ def about(request):
 
 def contact(request):
     return HttpResponse("Contact page")
+
+def list(request):
+    return HttpResponse("list page")
