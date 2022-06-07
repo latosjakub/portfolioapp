@@ -7,3 +7,6 @@ def employee(request):
 
 def profile(request):
     return HttpResponse("This is profile Page")
+
+def extra(request):
+    return HttpResponse("Extra info here")
